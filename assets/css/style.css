@@ -1,0 +1,60 @@
+body {
+  border: 0;
+  padding: 0;
+  margin: 0;
+}
+.main article {
+  background-color: lightslategrey;
+  padding: 16px;
+  margin-top: 5px;
+}
+.main article p {
+  color: white;
+}
+.centrar {
+  width: 75%;
+  margin: 0 auto;
+}
+#footer_principal {
+  background-color: #0353a4;
+  padding: 25px 0;
+  margin-top: 20px;
+}
+#footer_principal_p {
+  color: white;
+  text-align: center;
+}
+
+/*PROPIEDADES DEL NAV*/
+nav {
+  background-color: #0353a4;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+}
+nav ul {
+  list-style-type: none;
+  display: inline-block;
+}
+nav ul li {
+  display: inline-block;
+  padding: 16px;
+}
+nav ul li:hover {
+  background-color: salmon;
+}
+nav img {
+  width: 64px;
+  vertical-align: middle;
+  margin-left: 32px;
+  border: solid 2px red;
+  border-radius: 10%;
+}
+#contenedorLogo {
+  display: inline-block;
+}
+.w-100 {
+  width: 100%;
+}
